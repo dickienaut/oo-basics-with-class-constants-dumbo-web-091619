@@ -7,11 +7,9 @@ class Shoe
   
   BRANDS = Set.new
 
-
-
-
   def initialize(brand)
     @brand = brand
+    Brands.add(brand)
   end
 
   def cobble
